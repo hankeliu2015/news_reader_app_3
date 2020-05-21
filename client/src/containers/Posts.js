@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NewPost from '../components/NewPost';
+import NewPost from '../components/newPost';
 import PostList from '../components/PostList';
 import { connect } from 'react-redux';
 import fetchPosts from '../actions/postsFetchAction';

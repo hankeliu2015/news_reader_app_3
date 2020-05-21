@@ -12,7 +12,7 @@ import Stories from './containers/Stories';
 import Comments from './containers/Comments';
 import Navbar from './components/navbar';
 import Posts from './containers/Posts';
-import NewPost from './components/NewPost';
+import NewPost from './components/newPost';
 import PostEdit from './components/PostEdit';
 import NewComment from './components/NewComment'
 import Container from 'react-bootstrap/Container';

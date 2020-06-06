@@ -13,13 +13,9 @@ import { likeAllOnStoriesFetch } from '../actions/likeAllOnStoriesFetchAction';
 class Stories extends Component {
 
   componentDidMount() {
-
     this.props.fetchStories();
-
     this.props.currentUserFetch();
-    
     this.props.likeAllOnStoriesFetch();
-
   }
 
   render() {

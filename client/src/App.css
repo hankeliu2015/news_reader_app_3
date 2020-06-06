@@ -38,7 +38,7 @@
 
 nav{
   float: right;
-  padding-right: 15px;
+  padding: 15px 15px 0 0;
   margin: 0 10px;
   background-color: coral;
 }
@@ -49,6 +49,12 @@ nav{
   background-color: coral;
   color: #fff;
 }
+
 .nav-links a{
   float: left;
+  padding: 15px 15px 10px 0;
+}
+
+.story-cards ol li:nth-child(odd) .card{
+  background-color: #f4f4f4;
 }

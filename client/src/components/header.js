@@ -6,13 +6,13 @@ export default function header(props) {
   return (
 
     <div>
-      <header className="App-header">
+      <header className="container App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
         <h3>Welcome to News Feed</h3>
 
         <p>
-        {props.username ? `Hello ${props.username}!` : 'Please sign in to add your comments or post your own stories.' } 
+        {props.username ? `Hello ${props.username}!` : 'Please sign in to add your comments or post your own stories.' }
         </p>
 
       </header>

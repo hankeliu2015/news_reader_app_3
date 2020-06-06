@@ -55,9 +55,9 @@ nav{
   padding: 15px 15px 10px 0;
 }
 
-.story-cards ol{
+/* .story-cards ol{
   background-color: #999;
-}
+} */
 
 .story-cards ol li:nth-child(odd) .card{
   background-color: #f4f4f4;

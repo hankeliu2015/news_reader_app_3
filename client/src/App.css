@@ -6,17 +6,21 @@
   animation: App-logo-spin infinite 20s linear;
   height: 5vmin;
   pointer-events: none;
+  margin: 3% 0 1% 0;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
+  /* background-color: #f4f4f4; */
+  background: url("../public/background-skyline.gif") no-repeat center -180px;
+  min-height: 45vh;
+  width: 100%;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
   font-size: calc(4px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
 .App-link {
@@ -34,6 +38,28 @@
 
 nav{
   float: right;
-  padding-right: 15px;
+  padding: 15px 15px 0 0;
   margin: 0 10px;
+  background-color: coral;
+}
+
+.nav-links{
+  min-height: 50px;
+  width: 100%;
+  background-color: coral;
+  color: #fff;
+}
+
+.nav-links a{
+  float: left;
+  padding: 15px 15px 10px 0;
+}
+
+.story-cards ol{
+  background-color: #999;
+}
+
+.story-cards ol li:nth-child(odd) .card{
+  background-color: #f4f4f4;
+  border-bottom: 1px solid coral;
 }

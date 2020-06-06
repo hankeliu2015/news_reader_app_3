@@ -12,25 +12,23 @@ import { likeAllOnStoriesFetch } from '../actions/likeAllOnStoriesFetchAction';
 
 class Stories extends Component {
 
-  componentDidMount(current_user) {
+  componentDidMount() {
     this.props.fetchStories();
-    if (current_user) {
-      this.props.currentUserFetch();
-      this.props.likeAllOnStoriesFetch();
-    }
+    this.props.currentUserFetch();
+    this.props.likeAllOnStoriesFetch();
   }
 
   render() {
     const list = this.props.stories.map((story, index) => {
       let foundLike = 0;
-        if (this.props.allLikes === true ) {
-          foundLike = this.props.allLikes.find(like => parseInt(like.item_id) === (story ? story.id : -1))
-        }
+      if (this.props.allLikes === true ) {
+        foundLike = this.props.allLikes.find(like => parseInt(like.item_id) === (story ? story.id : -1))
+      }
 
-        return (
-        <li key={index}>
-          <StoryCard story = {story} like = {foundLike ? foundLike.vote : 0 } />
-        </li>
+      return (
+      <li key={index}>
+        <StoryCard story = {story} like = {foundLike ? foundLike.vote : 0 } />
+      </li>
       )
     })
 

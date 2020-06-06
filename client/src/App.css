@@ -6,16 +6,18 @@
   animation: App-logo-spin infinite 20s linear;
   height: 5vmin;
   pointer-events: none;
+  margin: 3% 0 1% 0;
 }
 
 .App-header {
   /* background-color: #f4f4f4; */
-  background: url("../public/background-skyline.gif") center;
+  background: url("../public/background-skyline.gif") no-repeat center -180px;
   min-height: 35vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
   font-size: calc(4px + 2vmin);
   color: #fff;
 }

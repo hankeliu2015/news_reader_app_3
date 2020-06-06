@@ -55,6 +55,13 @@ nav{
   padding: 15px 15px 10px 0;
 }
 
+.story-cards ol{
+  background-color: coral;
+}
+
+.story-cards ol li .card{
+  margin: 5px 5px 5px 5px;
+}
 .story-cards ol li:nth-child(odd) .card{
   background-color: #f4f4f4;
 }

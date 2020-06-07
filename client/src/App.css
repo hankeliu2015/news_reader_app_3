@@ -11,7 +11,7 @@
 
 .App-header {
   /* background-color: #f4f4f4; */
-  background: url("../public/background-skyline.gif") no-repeat center -180px;
+  background: url("https://res.cloudinary.com/dcyxkrt7p/image/upload/v1591554342/background-skyline.gif") no-repeat center -180px;
   min-height: 45vh;
   width: 100%;
   /* display: flex;

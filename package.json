@@ -2,14 +2,11 @@
   "name": "news-reader",
   "private": true,
    "engines": {
-    "node": "12.13.1",
-     "npm": "6.12.1"
+    "node": "10.15.3"
   },
-
   "scripts": {
     "build": "cd client && yarn install && yarn build && cd ..",
     "deploy": "cp -a client/build/. public/",
     "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
   }
-
 }

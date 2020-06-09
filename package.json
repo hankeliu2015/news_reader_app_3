@@ -2,7 +2,8 @@
   "name": "news-reader",
   "private": true,
    "engines": {
-    "node": "12.13.1"
+    "node": "12.13.1",
+    "npm": "6.12.1"
   },
   "scripts": {
     "build": "cd client && yarn install && yarn build && cd ..",

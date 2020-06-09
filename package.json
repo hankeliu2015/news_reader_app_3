@@ -3,8 +3,7 @@
   "private": true,
    "engines": {
     "node": "12.13.1",
-     "npm": "6.12.1",
-     "yarn": "1.17.3"
+     "npm": "6.12.1"
   },
 
   "scripts": {

@@ -1,11 +1,6 @@
 {
   "name": "news-reader",
   "private": true,
-  "engines": {
-    "node": "10.15.3",
-    "npm": "6.12.1",
-    "yarn": "1.16.0"
-  },
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
     "bootstrap": "^4.3.1",

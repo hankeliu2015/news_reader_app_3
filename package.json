@@ -2,7 +2,7 @@
   "name": "news-reader",
   "private": true,
   "engines": {
-    "node": "10.15.1",
+    "node": "10.15.3",
     "npm": "6.12.1",
     "yarn": "1.16.0"
   },
